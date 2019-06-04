@@ -5,7 +5,6 @@ This repository is part of a presentation of how to move from REST to GraphQL. I
 # Requirements
 
 - Docker installed. You can learn how to [here](https://docs.docker.com/v17.12/)
-- Prisma installed globally. Learn more [here](https://github.com/prisma/prisma)
 
 # Getting started
 
@@ -30,5 +29,6 @@ Contains the basic database setup to be used by Docker on build.
 ## docker-compose.yml
 The docker configuration file. It builds up the PostgreSQL container.
 
-
+# Endpoints
+`http://localhost:4000/graphql`
   
