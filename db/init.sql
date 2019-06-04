@@ -3,5 +3,6 @@ CREATE TABLE IF NOT EXISTS users (
   name text,
   username text,
   followers text[],
-  following text[]
+  following text[],
+  photos text[]
 );

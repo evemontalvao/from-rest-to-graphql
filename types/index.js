@@ -9,7 +9,8 @@ type Mutation {
     name: String!,
     username: String!,
     followers: [ID],
-    followers: [ID]
+    followers: [ID],
+    photos: [String]
   ): User
   deleteUser(
     id: ID!
@@ -19,7 +20,8 @@ type Mutation {
     name: String,
     username: String,
     followers: [ID],
-    following: [ID]
+    following: [ID],
+    photos: [String]
   ): User
 }
 
@@ -29,5 +31,6 @@ type User {
   username: String!
   followers: [ID]
   following: [ID]
+  photos: [String]
 }
 `
